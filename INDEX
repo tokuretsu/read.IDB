@@ -1,1 +1,2 @@
-read.IDB                Read .IDB2 - IGDB files.
+read.IDB                Read InfoStat and InfoGen files
+write.IDB               Write InfoStat and InfoGen files
