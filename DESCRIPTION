@@ -1,0 +1,11 @@
+Package: read.IDB
+Type: Package
+Title: read and write InfoStat and InfoGen files
+Version: 0.99
+Author: tokuretsu
+Maintainer: tokuretsu <tokuretsu@gmail.com>
+Description: Read IDB2/IGDB Files
+License: GNU
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

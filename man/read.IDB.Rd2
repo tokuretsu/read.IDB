@@ -1,0 +1,22 @@
+\name{read.IDB}
+\alias{read.IDB}
+\title{Read InfoStat IDB2 and InfoGen IGDB files}
+\description{
+Read InfoStat IDB2 and InfoGen IGDB files
+}
+\usage{
+read.IDB(file)
+}
+\arguments{
+\item{method2order}{method to order colors (\code{"hsv"} or \code{"cluster"})}
+
+\item{cex}{character expansion for the text}
+
+\item{mar}{margin parameters; vector of length 4 (see \code{\link[graphics]{par}})}
+}
+\value{
+A dataframe.
+}
+\notes{
+a
+}

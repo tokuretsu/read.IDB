@@ -1,0 +1,4 @@
+cubo(x)=x*x*x
+lnc(x)=ln(x+1)
+
+

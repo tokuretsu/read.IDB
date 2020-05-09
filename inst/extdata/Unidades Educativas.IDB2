@@ -1,0 +1,183 @@
+Version=3
+DecimalSeparator=(.)
+Cols=4
+Rows=24
+Font.Name=Arial
+Font.Size=9
+DefaultRowHeight=24
+ClientWidth=376
+ClientHeight=403
+Grid.left=0
+Grid.top=0
+font.style.fsbold=0
+font.style.fsItalic=0
+font.style.fsUnderline=0
+font.style.fsStrikeOut=0
+{columns data}
+Col.name=Provincia
+Col.description=
+Col.data.type=3
+Col.decimals=0
+Col.alignment=0
+Col.width=99
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.grouplabels=
+{end of column}
+Col.name=Inicial
+Col.description=
+Col.data.type=1
+Col.decimals=0
+Col.alignment=1
+Col.width=61
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.grouplabels=
+{end of column}
+Col.name=Primario
+Col.description=
+Col.data.type=1
+Col.decimals=0
+Col.alignment=1
+Col.width=65
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.grouplabels=
+{end of column}
+Col.name=Medio
+Col.description=
+Col.data.type=2
+Col.decimals=0
+Col.alignment=0
+Col.width=65
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.grouplabels=
+{end of column}
+{row data}
+{end row data}
+{block data}
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+Buenos Aires
+Catamarca
+Chaco
+Chubut
+Córdoba
+Corrientes
+Entre Ríos
+Formosa
+Jujuy
+La Pampa
+La Rioja
+Mendoza
+Misiones
+Neuquén
+Rio Negro
+Salta
+San Juan
+San Luis
+Santa Cruz
+Santa Fe
+Santiago del Estero
+Tierra del Fuego
+Tucumán
+
+4327
+37
+330
+180
+1813
+824
+1132
+179
+355
+87
+187
+800
+768
+252
+250
+766
+325
+185
+73
+1321
+365
+40
+653
+
+6080
+448
+1025
+236
+2095
+922
+1310
+495
+410
+227
+370
+820
+876
+344
+378
+795
+388
+352
+94
+1661
+1232
+49
+739
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+open agro.uncor.edu
+infostat
+info2000
+cd datos
+hash
+bin
+prompt
+mget *.*
+quit
