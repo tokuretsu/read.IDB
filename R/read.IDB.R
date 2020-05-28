@@ -2,11 +2,21 @@
 #'
 #' Read InfoStat IDB2 and InfoGen IGDB files.
 #'
-#' @param file The file to be read, must be created by InfoStat/InfoGen or R.
+#' @param file The file to be read, must be created by InfoStat/InfoGen or R. If NULL, returns the list of the test datasets provided in inst/extdata.
 #' @return A data frame.
 #' @export
 
-read.IDB <- function(file){
+read.IDB <- function(file=NULL) {
+  path <- system.file("extdata", package = "read.IDB")
+  if (is.null(file)) { list.files(path)
+}
+else {
+  if( !file.exists(file) ) {
+    if (file.exists(paste0(path,"/",file))) { 
+       file <- paste0(path,"/",file)
+  }    else { 
+stop('No such file or directory') }
+}
   idb <- readLines(file,skipNul = T, encoding = "latin1")
   rows <- as.numeric(sub(".*[=]", "", grep("Rows", idb, value = TRUE), perl = T))
   cols <- as.numeric(sub(".*[=]", "", grep("Cols", idb, value = TRUE), perl = T))
@@ -29,4 +39,5 @@ read.IDB <- function(file){
   }
   df[df == ""] <- NA
   return(df)
+}
 }
