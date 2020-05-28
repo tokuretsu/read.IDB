@@ -1,0 +1,10 @@
+Líneas
+SC
+VJ
+MG
+SM
+IE0
+IO0
+IE1
+IO1
+IE2
